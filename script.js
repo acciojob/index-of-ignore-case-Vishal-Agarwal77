@@ -1,7 +1,7 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
 	for(let i=0;i<s1.length;i++){
-		if(s1.slice(i,i+s2.length+1).toUpperCase()==s2.toUpperCase()){
+		if(s1.slice(i,i+s2.length).toUpperCase()==s2.toUpperCase()){
 			return i;
 		}
 	}
